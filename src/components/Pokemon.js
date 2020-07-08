@@ -5,7 +5,7 @@ function Pokemon({ pokemon }){
     return(
         <div className="pokemon">
             <div className="pokemon__name">
-                {pokemon.name}
+                <span>{pokemon.name}</span>
             </div>
             <div className="pokemon__image">
                 <img src={pokemon.image} />
